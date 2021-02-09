@@ -12,7 +12,7 @@ namespace selenium
 {
     public class Seznam
     {
-     public static void Prihlas(string jmeno, string heslo)
+        public static void Prihlas(string jmeno, string heslo)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
